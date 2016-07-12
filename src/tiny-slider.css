@@ -1,0 +1,41 @@
+.ts-wrapper {
+    overflow: hidden;
+}
+
+.ts-wrapper ul,
+.ts-wrapper ul li {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.ts-wrapper ul li {
+
+    opacity: 0;
+    z-index: 0;
+    /*display: none;*/
+}
+
+.ts-wrapper ul li.ts-slide-active {
+    opacity: 1;
+    z-index: 10;
+}
+
+.ts-wrapper ul li * {
+    display: block;
+}
+
+.ts-wrapper ul li img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Effects ************************************************************************************************************/
+
+/* Ken Burns */
+.ts-wrapper.ken-burns {
+
+}

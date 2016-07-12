@@ -1,0 +1,9 @@
+html {
+    background: #dddddd;
+}
+
+.page_main_container {
+    background: #eeeeee;
+    margin: 0 auto;
+    width: 1200px;
+}
